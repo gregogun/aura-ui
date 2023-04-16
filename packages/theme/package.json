@@ -1,7 +1,7 @@
 {
-  "name": "@aura-test/button",
+  "name": "@aura-test/theme",
   "version": "0.0.1",
-  "description": "Package template for a button component",
+  "description": "Aura test theme",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -19,19 +19,11 @@
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@aura-test/theme": "workspace:*"
+    "@stitches/react": "^1.2.8"
   },
   "devDependencies": {
-    "@stitches/react": "^1.2.8",
     "@types/node": "18.11.13",
-    "@types/react": "17.0.37",
-    "@types/react-dom": "17.0.11",
-    "react": "17.0.2",
     "tsup": "5.11.7",
     "typescript": "4.6.4"
-  },
-  "peerDependencies": {
-    "react": "^16.8 || ^17.0 || ^18.0",
-    "react-dom": "^16.8 || ^17.0 || ^18.0"
   }
 }
